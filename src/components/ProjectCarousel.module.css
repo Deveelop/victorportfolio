@@ -1,0 +1,14 @@
+.carousel{
+width: 400px;
+height: 200px;
+border-radius: 18px;
+background: #ccc;
+
+}
+
+.carousel img{
+width: 400px;
+height: 200px;
+border-radius: 26px;
+
+}
