@@ -1,10 +1,8 @@
 .container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-margin: 10px;
-
-animation: info-appear 1s ease-out forwards;
+    display: flex;
+}
+.container p{
+    color: #fff;
 }
 @keyframes info-appear {
     from {
@@ -19,51 +17,134 @@ animation: info-appear 1s ease-out forwards;
     
 }
 .container label{
-    color: black;
+    color: #fff;
     font-weight: bold;
     margin: 20px 0;
 }
+.subdiv{
+     max-width: 100rem;
+    width: 90%;
+   
+    padding: 1rem;
+    background: #5005b1;
+}
 .notes{
-    width: 40%;
+     width: 100%;
+     max-width: 468px;
+     margin: 30px auto;
+     animation: info-appear 1s ease-out forwards;
+    /* width: 40%;
     margin-left: 100px;
     margin-top: 50px;
-    color: white;
-    padding: 0.1rem;  
+    padding: 0.1rem;    */
 }
 .notes h1{
     margin: 0;
-    font-weight: bold;
+    font-weight: 900;
+    color: #89fa5c;
+  
 }
-.owner{
-    margin-left: -60rem;
-    margin-top: 100px;
+
+.subdivimg{
+    background: #89fa5c;
+    max-width: 45rem;
+    width: 90%;
+    padding: 1rem;
+   
 }
 .owner img{
+    position: absolute;
+    top: 30.5ex;
+    left: 50.5em;
     width: 300px;
     height: 300px;
-    border: 10px solid #0a0a23;
+    border: 10px solid #89fa5c;
     border-radius: 60rem;
    
 }
 
 .container h5,p{
-    color: black;
+    color: #fff;
     margin: 0;
 }
 .watt{
-    border: 10px solid #ccc;
+    border: 10px solid #89fa5c;
     width: 26rem;
     border-radius: 29px;
 }
 .stacksicon{
     margin: 20px 0;
+    display: block;
 }
-@media (max-width: 768px) {
+.stacksicon span{
+    margin: 0 20px;
+}
+.profiles{
+    margin: 20px 0;
+}
+.profiles span{
+    margin: 0 20px;
+}
+.profiles span:hover{
+    transform: rotate(20deg);
+}
+.action button{
+    background: #89fa5c;
+    font-weight: 900;
+}
+@media (max-width: 800px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .subdiv{
+        max-width: 20rem;
+        width: 100%;
+    }
+    .watt{
+        max-width: 20rem;
+        width: 100%;
+        margin: auto;
+    }
+    .subdivimg{
+        background: #fff;
+        max-width: 25rem;
+        width: 80%;
+        height: 20rem;
+
+    }
+    .owner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .notes{
+    width: 100%;
+    max-width: 468px;
+    animation: info-appear 1s ease-out forwards;
+    }
+    .owner img{
+        position: relative;
+        top: 5ex;
+        left: -2em;
+        width: 200px;
+        height: 200px;
+        border: 10px solid #89fa5c;
+        border-radius: 60rem;
+        z-index: 1;
+    }
+    .newSvg{
+        position: relative;
+        top: -20ex;
+        left: -2em;
+       
+    }
     
-      .notes{
+      /* .notes{
        width: 100%;
        margin-right: 95rem;
-        color: white;
+        color: black;
          
     }
     .owner{
@@ -77,5 +158,5 @@ animation: info-appear 1s ease-out forwards;
      height: 100px;
        
     }
-    
+     */
 }

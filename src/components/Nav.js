@@ -1,15 +1,15 @@
 import React from 'react'
 import './Nav.css'
-import Home from './Home'
-import Header from './Layouts/Header'
+
+
 
 
 function Nav() {
   return (
     <div>
-       <Header/>
+     
     
-           <Home/>
+          
 
         
        
