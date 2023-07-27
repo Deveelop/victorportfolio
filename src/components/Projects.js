@@ -14,13 +14,13 @@ function Projects() {
       <p>apps with focus on fast, elegant and accessible user experience</p>
       </div>
       <div className={styles.graphs}>
-      <p>Currently, I am unemployed but consistently working on my react skills</p>
+      <p>Currently, I work at Grouby.africa as a Lead Frontend Engineer</p>
       <p>to building the best component you can find anywhere in the world.</p>
       <p>Crafting out thoughtful and inclusive experience that adhere to web</p>
       <p>standards for over 3 million users across the world.</p>
       </div>
       <div className={styles.graphs}>
-      <p>Before now, I have had internship opportunity to collaborate with both</p>
+      <p>Before now, I had internship opportunity to collaborate with both</p>
       <p> senior and junior developers across states in Nigeria on projects that has helped</p>
       <p>my career and also broaden my knowledge about TypeScript and Nextjs etc.</p>
       </div>

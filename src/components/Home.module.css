@@ -1,3 +1,6 @@
+.generals{
+
+}
 .container{
     display: flex;
 }
@@ -99,11 +102,11 @@
         flex-direction: column;
     }
     .subdiv{
-        max-width: 20rem;
+        max-width: 40rem;
         width: 100%;
     }
     .watt{
-        max-width: 20rem;
+        max-width: 40rem;
         width: 100%;
         margin: auto;
     }
@@ -127,7 +130,7 @@
     .owner img{
         position: relative;
         top: 5ex;
-        left: -2em;
+        left: 2em;
         width: 200px;
         height: 200px;
         border: 10px solid #89fa5c;
@@ -137,7 +140,7 @@
     .newSvg{
         position: relative;
         top: -20ex;
-        left: -2em;
+        left: 2em;
        
     }
     

@@ -8,7 +8,7 @@
    
 }
 .overHead{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .profile{
     margin: 30px auto;
@@ -36,7 +36,9 @@ color: black;
     padding: 20px;
     color: black;
 }
-
+.overHead{
+    margin-right: 100px;
+}
 
 
 
@@ -105,9 +107,7 @@ font-weight: 900;
     .profile{
         margin: 0px;
     }
-    .paragraphs{
-       
-    }
+  
     .inner{
         width: 50px;
         height: 50px;

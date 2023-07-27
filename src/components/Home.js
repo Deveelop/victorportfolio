@@ -11,6 +11,7 @@ import GithubIcon from './SVG/GithubIcon'
 import Trials from './Trials'
 function Home() {
   return (
+    <div className={styles.generals}>
     <div className={styles.container}>
       <div className={styles.subdiv}>
       <div className={styles.notes}>
@@ -51,6 +52,7 @@ function Home() {
 
         </div>
         </div>
+    </div>
     </div>
   )
 }

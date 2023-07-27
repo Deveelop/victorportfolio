@@ -14,13 +14,13 @@ border-radius: 26px;
 }
 @media (max-width: 800px) {
     .carousel{
-        width: 270px;
+        width: 362px;
         height: 200px;
         background: #ccc;
         border-radius: 18px;
     }
     .carousel img{
-        width: 270px;
+        width: 362px;
         height: 200px;
         border-radius: 26px;
         
