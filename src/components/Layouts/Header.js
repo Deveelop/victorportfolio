@@ -1,16 +1,15 @@
 import React from 'react'
-import styles from './Header.module.css'
-import MenuIcon from './MenuIcon'
+import {FaBars} from 'react-icons/fa'
 function Header() {
   return (
-    <nav className={styles.nav}>
-      <span className={styles.icon}><MenuIcon/></span>
-      
-    <ul>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>About Me</a></li>
-        <li><a href='#'>Projects</a></li>
-        <li><a href='#'>Contact</a></li>
+    <nav className=' bg-[--col] h-20 w-full items-center p-8  '>
+    
+    <FaBars className='md:hidden ' color='white' size={35}/>
+    <ul className=' list-none  justify-end hidden sm:flex '>
+        <li className=' '><a className=' text-decoration-line: no-underline text-white px-3 rounded text-lg uppercase hover:bg-[#89fa5c]  ' href='#'>Home</a></li>
+        <li  className=' '><a className='text-decoration-line: no-underline text-white px-3 rounded text-lg uppercase hover:bg-[#89fa5c]' href='#'>About</a></li>
+        <li  className='  '><a className='text-decoration-line: no-underline text-white px-3 rounded text-lg uppercase hover:bg-[#89fa5c]' href='#'>Projects</a></li>
+        <li  className=' '><a className='text-decoration-line: no-underline text-white px-3 rounded text-lg uppercase hover:bg-[#89fa5c]' href='#'>Contact</a></li>
     </ul>
 </nav>
   )

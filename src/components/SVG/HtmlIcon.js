@@ -2,23 +2,7 @@ import React from 'react'
 
 function HtmlIcon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" 
-version="1.1" xlink="http://www.w3.org/1999/xlink"
- svgjs="http://svgjs.com/svgjs" 
- width="80" height="80" x="0" y="0" 
- viewBox="0 0 512 512" 
-  space="preserve" 
-  className="">
-    <g transform="matrix(0.5999999999999991,0,0,0.5999999999999991,90.47960205078166,102.40000000000023)"><path fill="#ff7816" d="m0 0 31.8 448.102L226.2 512l194.398-63.898L452.398 0zm0 0" data-original="#ff7816" className=""></path>
-    <path fill="#953005" d="m452.398 0-31.8 448.102L226.199 512V0zm0 0" data-original="#ff4b00" className=""></path>
-    <path fill="#ececf1" d="M367.5 136H145.2l5.398 75h211.504l-12.903 181.598-123 41.101-123-41.101L99 332h60l1.2 16.5 66 21.898 66-21.898 5.398-77.5H94.5L80.7 76h291zm0 0" data-original="#ececf1" className="">
-        </path>
-        <g fill="#e2e2e7">
-            <path d="m362.102 211-12.903 181.598-123 41.101v-63.3l66-21.899 5.399-77.5h-71.399v-60zM371.7 76l-4.2 60H226.2V76zm0 0" fill="#e2e2e7" data-original="#e2e2e7" className="">
-                </path>
-                </g>
-                </g>
-                </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xlink="http://www.w3.org/1999/xlink" svgjs="http://svgjs.com/svgjs" width="30" height="30" x="0" y="0" viewBox="0 0 434.147 434.147" ><g><path d="m27.336 14.372 28.177 360.474a13.333 13.333 0 0 0 9.263 11.67l148.268 47.008c2.622.831 5.437.831 8.059 0l148.268-47.008a13.333 13.333 0 0 0 9.263-11.67l28.177-360.474C407.417 6.622 401.292 0 393.519 0H40.629c-7.773 0-13.898 6.622-13.293 14.372zm307.217 111.843H150.918l5.542 51.105h174.099L319.17 323.013l-102.096 32.369-102.096-32.369-5.95-76.116h53.588v37.336l55.89 15 55.556-15 4.31-59.503H107.295L95.937 79.419H338.21l-3.657 46.796z"  fill="#fc490b" data-original="#fc490b"></path></g></svg>
   )
 }
 

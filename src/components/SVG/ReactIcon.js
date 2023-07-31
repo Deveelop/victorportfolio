@@ -2,7 +2,7 @@ import React from 'react'
 
 function ReactIcon() {
   return (
-   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xlink="http://www.w3.org/1999/xlink" svgjs="http://svgjs.com/svgjs" width="50" height="50" x="0" y="0" viewBox="0 0 445 445.6"  space="preserve" className="">
+   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xlink="http://www.w3.org/1999/xlink" svgjs="http://svgjs.com/svgjs" width="30" height="30" x="0" y="0" viewBox="0 0 445 445.6"  space="preserve" className="">
    <g><linearGradient id="a"><stop offset="0" stopColor="#00efd1"></stop><stop offset="1" stopColor="#00acea"></stop></linearGradient><linearGradient href="#a" id="b" x1="256.03" x2="256.03" y1="498" y2="13.191" gradientTransform="matrix(1 0 0 -1 -58.52 480.8)" gradientUnits="userSpaceOnUse"></linearGradient>
    <linearGradient href="#a" id="c" x1="256" x2="256" y1="498" y2="13.191" gradientTransform="matrix(1 0 0 -1 -58.52 480.8)" gradientUnits="userSpaceOnUse">
    </linearGradient>

@@ -56,9 +56,6 @@ function About() {
     
   
     </div>
-    <footer>
-<p>&copy; 2023 Victor Nathaniel. All rights reserved.</p>
-    </footer>
     </>
   )
 }

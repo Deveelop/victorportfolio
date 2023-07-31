@@ -1,12 +1,5 @@
-.generals{
 
-}
-.container{
-    display: flex;
-}
-.container p{
-    color: #fff;
-}
+
 @keyframes info-appear {
     from {
         opacity: 0;
@@ -19,18 +12,7 @@
       }
     
 }
-.container label{
-    color: #fff;
-    font-weight: bold;
-    margin: 20px 0;
-}
-.subdiv{
-     max-width: 100rem;
-    width: 90%;
-   
-    padding: 1rem;
-    background: #5005b1;
-}
+
 .notes{
      width: 100%;
      max-width: 468px;
@@ -88,9 +70,7 @@
 .profiles span{
     margin: 0 20px;
 }
-.profiles span:hover{
-    transform: rotate(20deg);
-}
+
 .action button{
     background: #89fa5c;
     font-weight: 900;

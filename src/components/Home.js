@@ -1,60 +1,64 @@
 import React from 'react'
 import ProjectCarousel from './ProjectCarousel'
-import styles from './Home.module.css'
-import { Button } from 'react-bootstrap'
+
+
 import HtmlIcon from './SVG/HtmlIcon'
 import CssIcon from './SVG/CssIcon'
 import JavascriptIcon from './SVG/JavascriptIcon'
 import ReactIcon from './SVG/ReactIcon'
-import LinkedInIcon from './SVG/LinkedInIcon'
-import GithubIcon from './SVG/GithubIcon'
-import Trials from './Trials'
+import Imgbg from './Imgbg'
+import Trials from './Imgbg'
+import { BsLinkedin, BsGithub} from 'react-icons/bs'
+import { icons } from 'react-icons'
 function Home() {
   return (
-    <div className={styles.generals}>
-    <div className={styles.container}>
-      <div className={styles.subdiv}>
-      <div className={styles.notes}>
-        <h1>Front-End React</h1>
-        <h1>Developer</h1>
-        <p>Hi, I'm Victor Abuka. A passionate Front-end React </p>
-        <p>Developer based in FCT Abuja, Nigeria.</p>
-        
-        <div className={styles.profiles}>
-        <span><a href='https://www.linkedin.com/in/victor-abuka-b13118201'><LinkedInIcon/></a></span>
-        <span><a href='https://github.com/Deveelop'><GithubIcon/></a></span>
-        </div>
-
-          <label>Featured Projects:</label>
-        <div className={styles.watt}>
-        <ProjectCarousel/>
-        </div>
-
-        <div className={styles.stacksicon}>
-        <h5>Tech Stack |</h5>
-      <span><HtmlIcon/></span>
-      <span><CssIcon/></span>
-      <span><JavascriptIcon/></span>
-      <span><ReactIcon/></span>
-     
-        </div>
-        <div className={styles.action}>
-           <Button>Download My CV</Button>
-           </div>
-        </div>
-        </div>
-        <div className={styles.subdivimg}>
-        <div className={styles.owner}>
-          <img src='/images/owner.png' alt="handome Vee"/>
-       <div className={styles.newSvg}>
-       <Trials />
+   
+    
+   
+    <div className='flex flex-col   sm:grid sm:grid-cols-3'>
+      <div className=' bg-[#470288]  sm:col-span-2 '>
+      <div className='  ml-4 sm:ml-40 '> 
+        <h1 className=' text-[#89fa5c] font-bold mt-4 '>Front-End React</h1>
+        <h1 className=' text-[#89fa5c] font-bold'>Developer</h1>
+        <p className='text-white'>Hi, I'm Victor Abuka. A passionate Front-end React</p>
+        <p className='text-white'>Developer based in Makurdi, Benue state.</p>
+    
+      <div className='flex gap-2'>
+      <a href="http://" target="_blank" rel="noopener noreferrer"> <BsLinkedin size={25} color='white' /> </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer"> <BsGithub size={25} color='white' /> </a>
+      </div>
+      <div className=' sm:w-40 sm:m-4 '>
+       <label  className='text-white font-bold mt-4'>Featured Projects</label>
+       <div className=' mt-2 w-fit rounded-3xl bg-[#89fa5c] border-8 border-[#89fa5c] '>
+       <ProjectCarousel/>
        </div>
+      </div>
+      </div>
+    
+      <div className='flex gap-2 mb-2 mt-4 ml-4 sm:gap-10 sm:ml-40 sm:mb-4'>
+     <span className='text-white font-bold'>Tech Stacks |</span>
+     <span className=''><CssIcon/></span>
+     <span><JavascriptIcon/></span>
+     <span><ReactIcon/></span>
+     <span><HtmlIcon/></span>
+      </div>
+      </div>
 
-        </div>
-        </div>
+
+       <div className='bg-[#89fa5c] sm:relative'>
+        <div className='sm:absolute sm:top-12 sm:-left-40'>
+        <Imgbg/>
+       <img  src='/images/owner.png' alt='handsome vee' className=' w-50 border-8 border-[#89fa5c] rounded-full  '/>
+       </div>
+       </div>
+        
+
+       
+        
     </div>
-    </div>
+   
+ 
   )
 }
 
-export default Home
+export default Home;

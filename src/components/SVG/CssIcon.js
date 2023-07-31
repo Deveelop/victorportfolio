@@ -3,7 +3,7 @@ import React from 'react'
 function CssIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xlink="http://www.w3.org/1999/xlink"
-     svgjs="http://svgjs.com/svgjs" width="45"  height="45" x="0" y="0" viewBox="0 0 512 512"
+     svgjs="http://svgjs.com/svgjs" width="30"  height="30" x="0" y="0" viewBox="0 0 512 512"
        space="preserve" 
       className="hovered-paths"><g><path d="m32 0 40.8 460.8L256 512l183.136-51.168L480 0z"
         fill="#2196f3" data-original="#2196f3" className="hovered-path">
