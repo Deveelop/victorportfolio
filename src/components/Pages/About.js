@@ -15,13 +15,13 @@ function About() {
        <p>but trust me, I'm the best shot you've got for a designer.</p>
        <p>Immersed in stylessheets tweaking font</p>
        <p>sizes and contemplating layouts is where you'll find me.</p>
-       <p>I'm committed to creating fluent user experience while staying fashionable</p>
+       <p>I'm committed to creating fluent user experience while staying fashionable.</p>
        </div>
        <h1>Engineering</h1>
        <div className={styles.paragraphs}>
        <p>I actually wanted to be building </p>
-       <p>electronics(why I applied for Elec/Elec Engr. at University of Agric. Makurdi Nigeria).</p>
-       <p>But ended up studyin Mathematics and now I'm love with building websites.</p>
+       <p>electronics( reasons why I applied for Elec/Elec Engr. at University of Agric. Makurdi Nigeria ).</p>
+       <p>But ended up studying Mathematics and now I'm in love with building websites.</p>
        <p>In building JavaScript applications, I'm equipped with just the right tools, and can</p>
        <p>absolutely function independently of them to deliver fast,</p>
        <p> resilient solutions optimized for  scale-performance and scalability are priorities on my radar.</p>

@@ -1,6 +1,6 @@
 
 .generals{
-    margin-top: 20px;
+   
     background: #5005b1;
 }
 .generals h1{
@@ -53,12 +53,7 @@
 .paragraphs p{
     color: #222;
 }
-.action button{
-    padding: 1rem;
-    background: transparent;
-    font-size: 1rem;
-    margin-top: 40px;
-}
+
 @media (max-width: 800px) {
     .contained{
         display: flex;
